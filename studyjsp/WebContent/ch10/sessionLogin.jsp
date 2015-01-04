@@ -25,9 +25,7 @@ try{
 	}else{
 		%>
 <b><%=id %></b>
-
 님이 로그인 하셨습니다.
-
 <form method="post" action="sessionLogout.jsp">
 	<input type="submit" value="로그아웃">
 </form>
