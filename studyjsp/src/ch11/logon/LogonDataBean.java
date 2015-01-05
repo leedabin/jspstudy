@@ -8,7 +8,7 @@ public class LogonDataBean {
 	private String name;
 	private Timestamp reg_date;
 	private String address;
-	private String te;
+	private String tel;
 	
 	public String getId() {
 		return id;
@@ -40,10 +40,10 @@ public class LogonDataBean {
 	public void setAddress(String address) {
 		this.address = address;
 	}
-	public String getTe() {
-		return te;
+	public String getTel() {
+		return tel;
 	}
-	public void setTe(String te) {
-		this.te = te;
+	public void setTel(String tel) {
+		this.tel = tel;
 	}
 }
